@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">AboutMe</string>
-    <string name="tab1name">Main</string>
-    <string name="tab2name">Skills</string>
-    <string name="tab3name">Contacts</string>
+    <string name="tab1name">Second Activity</string>
+    <string name="tab2name">Say "Beep"</string>
+    <string name="tab3name">Заметки</string>
     <string name="FIO">Bugaev Denis</string>
     <string name="email">denis.bugayov@gmail.com</string>
     <string name="mphone">+7(921)401-3515</string>
@@ -18,6 +18,8 @@
     <string name="Rhinoceros">Rhinoceros(3D modeling)</string>
     <string name="ProjectManagement">Project Management</string>
     <string name="datepicker">DatePicker</string>
+    <string name="TimePicketBtn">Time Picker</string>
+    <string name="NotesBtn">Заметки</string>
 
 
     <string-array name="skills">

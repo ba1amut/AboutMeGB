@@ -1,5 +1,6 @@
 package com.speedsumm.bu.aboutmegb;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -35,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
         public boolean onOptionsItemSelected (MenuItem item){
             switch (item.getItemId()) {
                 case R.id.menuMain:
-                    showToast("MAIN");
+                    showToast(getResources().getString(R.string.tab2name));
+                    Intent intent = new Intent(this,SecondActivity.class);
+                    startActivity(intent);
                     break;
                 case R.id.menuSkills:
                     showToast("SKILLS");
