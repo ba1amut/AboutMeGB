@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/menuMain"
+    android:title="@string/tab1name"/>
+
+<item
+    android:id="@+id/menuSkills"
+
+    android:title="@string/tab2name"
+    android:icon="@android:drawable/star_on"/>
+<item
+    android:id="@+id/menuCont"
+    android:title="@string/tab3name"/>
+
+    <!--<item-->
+    <!--android:id="@+id/DatePicker"-->
+    <!--android:title="@string/datepicker"/>-->
+</menu>

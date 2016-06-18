@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">AboutMeGB</string>
+    <string name="app_name">AboutMe</string>
+    <string name="tab1name">Main</string>
+    <string name="tab2name">Skills</string>
+    <string name="tab3name">Contacts</string>
+    <string name="FIO">Bugaev Denis</string>
+    <string name="email">denis.bugayov@gmail.com</string>
+    <string name="mphone">+7(921)401-3515</string>
+    <string name="skype">bu_cmw_1977</string>
+    <string name="about">5-21 22:38:50.148 22991-22991/com.speedsumm.bu.aboutme I/art: Late-enabling -Xcheck:jni 05-21 22:38:50.203 22991-22991/com.speedsumm.bu.aboutme W/System: ClassLoader referenced unknown path: /data/app/com.speedsumm.bu.aboutme-1/lib/arm 05-21 22:38:53.948 22991-22991/com.speedsumm.bu.aboutme W/System: ClassLoader referenced unknown path: /data/app/com.speedsumm.bu.aboutme-1/lib/arm 05-21 22:38:54.144 22991-22991/com.speedsumm.bu.aboutme W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable 05-21 22:38:54.246 22991-23288/com.speedsumm.bu.aboutme D/OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true</string>
+
+
+    <string name="Excel">Microsoft Excel</string>
+    <string name="Basic">Visual Basic</string>
+    <string name="Java">Java</string>
+    <string name="Android">Android</string>
+    <string name="PHP">PHP</string>
+    <string name="Rhinoceros">Rhinoceros(3D modeling)</string>
+    <string name="ProjectManagement">Project Management</string>
+    <string name="datepicker">DatePicker</string>
+    <string name="headSkillsPage">SKILLS</string>
+
+    <string-array name="skills">
+        <item>@string/Excel</item>
+        <item>@string/Basic</item>
+        <item>@string/Java</item>
+        <item>@string/Android</item>
+        <item>@string/PHP</item>
+        <item>@string/Rhinoceros</item>
+        <item>@string/ProjectManagement</item>
+    </string-array>
+
+    <string-array name="skillsStars">
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>4</item>
+        <item>4</item>
+    </string-array>
 </resources>
