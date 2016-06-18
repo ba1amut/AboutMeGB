@@ -18,7 +18,7 @@
     <string name="Rhinoceros">Rhinoceros(3D modeling)</string>
     <string name="ProjectManagement">Project Management</string>
     <string name="datepicker">DatePicker</string>
-    <string name="headSkillsPage">SKILLS</string>
+
 
     <string-array name="skills">
         <item>@string/Excel</item>
