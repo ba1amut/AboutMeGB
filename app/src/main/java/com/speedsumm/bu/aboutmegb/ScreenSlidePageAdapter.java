@@ -20,10 +20,10 @@ public class ScreenSlidePageAdapter extends FragmentStatePagerAdapter {
         Fragment fragment = null;
         switch (position){
             case 0:
-                fragment = new ProbaFragment();
+                fragment = new Fragment1();
                 break;
             case 1:
-                fragment = new ProbaFragment2();
+                fragment = new Fragment2();
             default:
         }
         return fragment;

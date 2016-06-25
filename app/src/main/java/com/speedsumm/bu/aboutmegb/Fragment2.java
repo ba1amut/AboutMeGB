@@ -14,11 +14,11 @@ import java.util.ArrayList;
 /**
  * Created by bu on 15.06.2016.
  */
-public class ProbaFragment2 extends Fragment {
+public class Fragment2 extends Fragment {
     String[] stars;
     Toast myToast;
     String[] skills;
-    ArrayList<Skills> arraofSkills = new ArrayList<Skills>();
+    ArrayList<Skills> arraofSkills = new ArrayList<>();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -29,7 +29,7 @@ public class ProbaFragment2 extends Fragment {
         SkillAdapter adapter = new SkillAdapter(this.getContext(), arraofSkills);
         ListView listView = (ListView) rootView.findViewById(R.id.listView);
         listView.setAdapter(adapter);
-        //TODO Попробовать прикрепить лист не к корневому виду, а к фрагменту.
+
 
         makeArray();
 

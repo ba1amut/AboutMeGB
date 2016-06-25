@@ -9,6 +9,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.io.IOException;
 
@@ -17,7 +18,20 @@ import java.io.IOException;
  */
 public class SecondActivity extends AppCompatActivity implements View.OnClickListener {
     ImageView imageView2;
+    TextView textView;
 
+
+    @Override
+    protected void onSaveInstanceState(Bundle savedInstanceState) {
+        savedInstanceState.putString("TimeStamp",textView.getText().toString());
+        super.onSaveInstanceState(savedInstanceState);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        textView.setText(savedInstanceState.getString("TimeStamp"));
+        super.onRestoreInstanceState(savedInstanceState);
+    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -25,6 +39,8 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_second);
 
         imageView2 = (ImageView) findViewById(R.id.imageView2);
+        textView = (TextView)findViewById(R.id.textView4);
+
 
 
     }
@@ -39,9 +55,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
                 TimePickDialog timePickFragment = new TimePickDialog();
                 timePickFragment.show(getSupportFragmentManager(), "TimePicker");
                 break;
-            case (R.id.btnNotes):
-                //TODO Make call NOTES programm
-                break;
+
 
         }
 

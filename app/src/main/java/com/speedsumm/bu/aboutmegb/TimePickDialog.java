@@ -19,7 +19,9 @@ public class TimePickDialog extends AppCompatDialogFragment implements TimePicke
     final Calendar calendar = Calendar.getInstance();
         int hourOfDay = calendar.get(Calendar.HOUR_OF_DAY);
         int minute = calendar.get(Calendar.MINUTE);
-        return new TimePickerDialog(getActivity(),this,hourOfDay,minute,true);
+        TimePickerDialog tpg = new TimePickerDialog(getActivity(),this,hourOfDay,minute,true);
+        tpg.setTitle("Введите новое время");
+        return tpg;
 
     }
 

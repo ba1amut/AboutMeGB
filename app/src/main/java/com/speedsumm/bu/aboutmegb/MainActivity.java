@@ -36,16 +36,16 @@ public class MainActivity extends AppCompatActivity {
         public boolean onOptionsItemSelected (MenuItem item){
             switch (item.getItemId()) {
                 case R.id.menuMain:
-                    showToast(getResources().getString(R.string.tab2name));
+                    showToast(getResources().getString(R.string.tab1name));
                     Intent intent = new Intent(this,SecondActivity.class);
                     startActivity(intent);
                     break;
-                case R.id.menuSkills:
-                    showToast("SKILLS");
+                case R.id.menuSettings:
+                    showToast(getResources().getString(R.string.tab3name));
                     break;
-                case R.id.menuCont:
-                    showToast("CONTACTS");
-                    break;
+//                case R.id.menuCont:
+//                    showToast("CONTACTS");
+//                    break;
 //                case R.id.DatePicker:
 //                    DatePickFragment datePickFragment = new DatePickFragment();
 //                    datePickFragment.show(getSupportFragmentManager(), "DATA_PICKER");

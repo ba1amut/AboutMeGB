@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 /**
  * Created by bu on 15.06.2016.
  */
-public class ProbaFragment extends Fragment {
+public class Fragment1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -24,5 +24,5 @@ public class ProbaFragment extends Fragment {
         return rootView;
 
     }
-//TODO Сделать нормальное описание самопрезентации через файл string.xml
+
 }
